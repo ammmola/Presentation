@@ -1,0 +1,14 @@
+.reveal .slides {
+  background-image: url("C:/Users/j21084/Documents/amalcode/1365764-une-centrale-edf-illustration.jpg");
+  background-size: cover;
+}
+.reveal .slides::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.5); /* Applique un overlay blanc pour éclaircir */
+  pointer-events: none;
+}

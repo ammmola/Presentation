@@ -2,7 +2,9 @@
 title: "Presentation des circuits de la centrale nucléaire"
 author: "amal rekik"
 date: "12/04/2024"
-output: revealjs::revealjs_presentation
+output: 
+  revealjs::revealjs_presentation:
+   css: "style.css"
 ---
 
 ```{r setup, include=FALSE}
@@ -32,5 +34,46 @@ L'eau sert de :
   - **Caloporteur :**En circulant dans le cœur du réacteur, L'eau absorbe la chaleur générée par la fission nucléaire et la transporte vers le générateur de vapeur.
   
 ---
+
 Circuit Secondaire 
+
+Ce circuit commence par le générateur de vapeur qui agit comme un échangeur de chaleur entre le circuit primaire et le circuit secondaire.
+
+L'eau du circuit primaire chauffée par la fission nucléaire circule dans des tubes à travers lesquels elle  tranfére sa chaleur à l'eau du circuit secondaire sans contact entre les deux eaux pour éviter toute contamination radiactive.
+
+---
+
+
+L'eau du circuit secondaire absorbe cette chaleur ce qui provoque son ébullution et sa transformation en vapeur.
+
+la vapeur sous haute pression est dirigée vers les turbines où l'énergie thermique est convertie en énergie mécanique : 
+elle fait tourner les pales de la turbine ce qui fait tourner l'arbre connécté au générateur électrique (alternateur) qui convertit l'énergie mécanique en éléctricité grâce à l'induction électromagnétique.
+
+---
+
+les Parties de l'alternateur
+
+Le rotor: un gros électroaimant alimenté par un courant continu créant un champ magnétique puissant.
+
+Le stator: contient les bobines du fil conducteur dans lesquelles le courant électrique est induit par le champ magnétique du rotor en rotation.
+
+---
+
+Conversion d'énergie
+
+Quand le rotor tourne, son champ magnétique tourne et traverse les bobines du stator induisant un courant alternatif dans ces bobines en raison de l'induction électromagnétique qui sera transmis à travers des transformateurs qui augmentent sa tension pour le transport sur de longues distances via le réseau électrique réduisant les pertes d'énergie en effets Joule.
+
+---
+
+Aprés que notre vapeur à fait tourner la turbine, elle est acheminée vers un condenseur où elle est refroidie par un flux d'eau froide et reconvertie en eau qui sera pompée hors du condenseur pour être réchauffée de nouveau dans le génerateur à vapeur.
+
+---
+
+
+Circuit Tertiaire (Circuit de refroidissement)
+
+La vapeur qui à traverser la turbine et qui à été condensée en eau.
+Cette eau reste à une température relativement élevée et doit être refroidie avant d'être recirculée dans le condenseur.
+
+
 
