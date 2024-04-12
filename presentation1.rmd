@@ -1,0 +1,36 @@
+---
+title: "Presentation des circuits de la centrale nucléaire"
+author: "amal rekik"
+date: "12/04/2024"
+output: revealjs::revealjs_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+## Introduction
+
+### Objectifs de la Présentation
+
+L'objectif de cette présentation est de détailler et de comprendre les différents circuits d'une centrale nucléaire. Nous explorerons comment ces systèmes interconnectés contribuent à la sécurité, à l'efficacité énergétique, et à la réduction de l'impact environnemental de la production d'énergie nucléaire. 
+
+---
+
+Circuit primaire 
+
+Le coeur du réacteur contient du combustible nucléaire(uranium) arrangé en assemblages.
+Lorsque le réacteur fonctionne, les atomes fendent (Processeur de fission nucléaire) libérant une grande quantité de chaleur. 
+
+---
+
+Dans un réacteur à eau pressurisée (REP)
+L'eau sert de :
+
+- &#x2193; 
+  - **Modérateur :**L'eau ralentit les neutrons produits par la fission nucléaire, permettant ainsi de maintenir la réaction en chaîne de manière contrôlée.
+- &#x2193; 
+  - **Caloporteur :**En circulant dans le cœur du réacteur, L'eau absorbe la chaleur générée par la fission nucléaire et la transporte vers le générateur de vapeur.
+  
+---
+Circuit Secondaire 
+
